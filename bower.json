@@ -1,0 +1,11 @@
+{
+  "name": "Site",
+  "version": "0.0.0",
+  "authors": [
+    "Hektor Wallin <hektorw@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "requirejs": "~2.1.10"
+  }
+}
