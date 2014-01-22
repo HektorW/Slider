@@ -33,7 +33,7 @@ module.exports = function(grunt) {
     connect: {
       options: {
         port: 9000,
-        livereload: 35729,
+        livereload: 35728,
         // hostname: '192.168.0.192'
         hostname: null
       },
@@ -42,7 +42,8 @@ module.exports = function(grunt) {
           // open: true,
           base: '<%= app.dev %>'
         }
-      }/*,
+      }
+      /*,
       test: {
         options: {
           base: [
@@ -64,8 +65,7 @@ module.exports = function(grunt) {
 
     less: {
       options: {
-        files: [
-        ]
+        files: []
       },
       dev: {
         files: {
@@ -80,8 +80,7 @@ module.exports = function(grunt) {
     },
 
     autoprefixer: {
-      options: {
-      },
+      options: {},
       dev: {
         src: '<%= app.dev %>/styles/main.css'
       },
@@ -91,8 +90,7 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      dev: {
-      },
+      dev: {},
       dist: {
         files: [{
           dot: true,
